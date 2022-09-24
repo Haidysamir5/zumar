@@ -1,0 +1,14 @@
+.active-photo {
+    overflow: hidden;
+    height: 792px;
+}
+.active-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .active-photo {
+        height: 400px;
+    }
+}

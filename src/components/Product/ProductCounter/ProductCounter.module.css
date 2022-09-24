@@ -1,0 +1,57 @@
+.counter-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    padding-top: 0;
+    gap: 10px;
+    height: 66px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    width: 65px;
+    height: 100%;
+    cursor: pointer;
+    background: #ECF1F4;
+    border-radius: 60px;
+}
+
+.icon:first-child{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.icon:last-child{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.icon:hover {
+    background: #dcdee2;
+}
+
+.icon img {
+    width: 26px;
+    height: 26px;
+}
+
+.count {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+}

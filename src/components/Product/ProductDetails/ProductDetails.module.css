@@ -1,0 +1,13 @@
+
+.details-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 52px;
+}
+
+@media only screen and (max-width: 768px) {
+    .details-box {
+        gap: 10px;
+    }
+}

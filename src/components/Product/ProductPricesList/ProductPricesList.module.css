@@ -1,0 +1,6 @@
+
+@media only screen and (max-width: 768px) {
+    .price-container {
+        gap: 10px;
+    }
+}

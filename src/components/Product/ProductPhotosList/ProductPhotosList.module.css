@@ -1,0 +1,7 @@
+.photos-list {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 20px;
+    height: 119px;
+}

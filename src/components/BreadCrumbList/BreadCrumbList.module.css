@@ -1,0 +1,20 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 27px;
+    margin: 30px 0;
+    padding: 0 40px;
+}
+
+.bread-crumb {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.1px;
+    color: #828282;
+}

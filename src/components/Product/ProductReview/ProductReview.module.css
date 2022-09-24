@@ -1,0 +1,19 @@
+.review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 28px;
+}
+.stars {
+    width: 132px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+
+.votes {
+    color: #999CAD;
+}

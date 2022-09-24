@@ -1,0 +1,11 @@
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 27px;
+    height: auto;
+    align-items: center;
+}
+
+
+

@@ -1,0 +1,25 @@
+.price-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.type {
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.1px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.value {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin: 0;
+}

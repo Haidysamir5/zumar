@@ -1,0 +1,15 @@
+
+.type {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.estimated {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.1px;
+    color: #828282;
+}

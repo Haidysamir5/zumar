@@ -1,0 +1,13 @@
+
+.icon {
+    width: 31px;
+    height: 31px;
+    border-radius: 35px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+}
