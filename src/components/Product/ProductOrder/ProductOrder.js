@@ -31,7 +31,7 @@ const ProductOrder = () => {
                 </Col>
                 <Col>
                     <Button color="dark-blue">
-                        <img src={phoneSrc} className="ico"/>
+                        <img src={phoneSrc} className="icon" alt="phone"/>
                         Call us
                     </Button>
                 </Col>

@@ -5,7 +5,7 @@ const NavbarBrand = () => {
 
   return (
         <div className={classes.brand}>
-          <img src={brandSrc}/>
+          <img src={brandSrc} alt="logo"/>
         </div>
   );
 };

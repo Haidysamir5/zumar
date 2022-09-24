@@ -5,7 +5,6 @@ import Row from '../../Ui/Row/Row';
 import Col from '../../Ui/Col/Col';
 import ProductShipping from '../ProductShipping/ProductShipping';
 import formatNumber from '../../../utils/formatNumber'
-import classes from './ProductShippingList.module.css';
 
 const ProductShippingList = () => {
     const shippingPrice = useSelector(state => state.productState.shippingPrice);

@@ -18,10 +18,10 @@ const ProductCounter = () => {
         <div className={classes['counter-container']}>
             <div className={classes.counter}>
                 <div className={classes.icon} onClick={addPiece}>
-                    <img src={add}/>
+                    <img src={add} alt="plus"/>
                 </div>
                 <div className={classes.icon} onClick={removePiece}>
-                    <img src={subs}/>
+                    <img src={subs} alt="mins"/>
                 </div>
             </div>
             <p className={classes.count}> {totalQuantity} </p>

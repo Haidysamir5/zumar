@@ -13,7 +13,7 @@ const NavbarCart = (props) => {
 
   return (
       <span className={`${childrenClass} ${mobileClass} ${desktopClass}`}>
-          <img src={bag}/>
+          <img src={bag} alt="cart"/>
           <Badge color="red">{cartCount}</Badge>
       </span>   
   );

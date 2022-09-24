@@ -8,7 +8,7 @@ const Input = props => {
   return (
     <div className={`${classes['input-container']} ${childrenClass}`}>
         {icon && <div className={classes.icon}>
-                <img src={icon}/>
+                <img src={icon} alt="input"/>
             </div>
         }
         <input className={classes.input} placeholder={placeholder}/>
